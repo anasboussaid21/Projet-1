@@ -7,7 +7,7 @@ st.write("""
 Spaced Repetition System SQL practices
 """)
 
-ption = st.selectbox(
+option = st.selectbox(
     "How would you like to review?",
     ("Joins","Groupeby","Window Functions"),
     index=None,
