@@ -31,7 +31,7 @@ with st.sidebar:
         "How would you like to review?",
         ("Joins", "Groupeby", "Window Functions"),
         index=None,
-        placeholder="Select a theme...",
+        placeholder="Select a theme..."
     )
     st.write('You selected:', option)
 
